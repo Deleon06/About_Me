@@ -30,14 +30,14 @@ h2 {
 
 input {
 	width: 570px;
-	margin-left: 2	5px;
+	margin-left: 25px;
 	border: 2px solid #ebebeb;
 }
 label{
 	font-family: Arial;
 	padding: 0px 0px 10px;
 	width: 90%;
-	margin: 25 150px 25px 25px;
+	margin: 25px 150px 25px 25px;
 	color: #696969;
 }
 
@@ -96,6 +96,10 @@ a:link {
 	height: 200px;
 	width: 570px;
 }
+
+.pictures {
+	z-index: 1;
+}
 p {
 	color: #C0C0C0;
 	margin: 0px 0px 0px 25px;
@@ -151,3 +155,11 @@ h5 {
 	font-family: sans-serif;
 	font-weight: lighter;
 }
+
+.Portfolio {
+	float: left;
+}
+
+
+
+
