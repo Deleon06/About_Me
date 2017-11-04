@@ -1,41 +1,52 @@
 body {
-	width: 960px;
+	width: 1260px;
 }
 
 section {
 	overflow: auto;
-	margin: 0px 10% 2% 0px;
+	margin: 0px 0px 2% 0px;
 	text-align: center;
 	background-color: white; 
-	width: 100%;
 	border-bottom: 4px solid #ebebeb;
 }
 
-a {
-}
 h1 {
 	/* your name */
+	font-size: 28;
 	background-color: #20B2AA;
 	padding: 2%;
 	color: #ebebeb;
 	float: left;
-	margin: 0px;
+	margin: 0px 0px 0px 150px;
 }
 
 h2 {
+	font-size: 28;
 	border-bottom: 4px solid #ebebeb;
 	padding: 0px 0px 10px;
 	width: 90%;
-	margin: 25px;
+	margin: 25px 150px 25px 25px;
+}
+
+input {
+	width: 570px;
+	margin-left: 2	5px;
+	border: 2px solid #ebebeb;
+}
+label{
+	font-family: Arial;
+	padding: 0px 0px 10px;
+	width: 90%;
+	margin: 25 150px 25px 25px;
+	color: #696969;
 }
 
 h3 {
+	font-size: 24;
 	border-bottom: 2px solid #ebebeb;
-	width: 90%;
+	width: 80%;
 	padding-bottom: 20px;
-	margin: 25px;
-
-
+	margin: 25 150px 25px 25px;
 }
 
 ul {
@@ -48,9 +59,12 @@ ul {
 	background-color: white;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 .one:hover {
 	color: #A9A9A9;
-
 }
 
 .two:hover {
@@ -64,11 +78,23 @@ ul {
 .one {
 	border-left: 1px solid #C0C0C0;
 	margin-left: 10px;
+	margin-right: 150px;
+	padding: 5px;
 }
 
 .two {
 	border-left: 1px solid #C0C0C0;
 	margin-left: 10px;
+	padding: 5px;
+}
+
+.three {
+	padding: 5px;	
+}
+
+.big_box {
+	height: 200px;
+	width: 570px;
 }
 p {
 	color: #C0C0C0;
@@ -79,7 +105,7 @@ article {
 	/* about me */ 
 	border: 2px solid #ebebeb;
 	color:#20B2AA;
-	margin: 0px 20px 0px 0px;
+	margin: 0px 20px 0px 150px;
 	background-color: white;
 	float: left;
 	width: 650px;
@@ -97,11 +123,11 @@ div {
 	border: 2px solid #ebebeb;
 	color: #20B2AA;
 	background-color: white;
-	text-align: center;
+	text-align: left;
 	float: left;
 	width: 270px;
 	padding: 0px 0px 50px;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 20px 12px;
 }
 
 h4 {
@@ -113,7 +139,15 @@ h4 {
 	font-size: 12;
 	padding: 2% 2% 1% 2%;
 	text-align: center;
-	
-	margin-top: 25px;
+	margin: 2% 0px 0px 0px;
 }
 
+h5 {
+	padding: 10px;
+	color: white;
+	background-color: #20B2AA;
+	margin: 25px;
+	width: 50px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
